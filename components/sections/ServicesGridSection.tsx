@@ -3,14 +3,14 @@
 import { motion } from 'framer-motion'
 import {
   FaSearch,
-  FaShareAlt,
-  FaPencilAlt,
+  FaShare,
+  FaPen,
   FaLaptop,
   FaChartLine,
   FaEnvelope,
-  FaMegaphone,
-  FaVideo,
-  FaCameraRetro,
+  FaBullhorn,
+  FaFilm,
+  FaCamera,
 } from 'react-icons/fa'
 
 const ServicesGridSection = () => {
@@ -24,7 +24,7 @@ const ServicesGridSection = () => {
       accentColor: 'text-digimax-purple',
     },
     {
-      icon: FaShareAlt,
+      icon: FaShare,
       title: 'Social Media Marketing',
       description:
         'Engage your audience across all platforms. From content strategy to community management, we handle it all.',
@@ -32,7 +32,7 @@ const ServicesGridSection = () => {
       accentColor: 'text-digimax-pink',
     },
     {
-      icon: FaPencilAlt,
+      icon: FaPen,
       title: 'Content Writing',
       description:
         'Compelling, SEO-optimized content that resonates with your audience and drives conversions.',
@@ -64,7 +64,7 @@ const ServicesGridSection = () => {
       accentColor: 'text-digimax-orange',
     },
     {
-      icon: FaMegaphone,
+      icon: FaBullhorn,
       title: 'Paid Advertising',
       description:
         'Strategic PPC campaigns on Google, Facebook, and Instagram. We maximize ROI through targeted advertising.',
@@ -72,7 +72,7 @@ const ServicesGridSection = () => {
       accentColor: 'text-digimax-purple',
     },
     {
-      icon: FaVideo,
+      icon: FaFilm,
       title: 'Video Marketing',
       description:
         'Engaging video content that tells your brand story. From concept to production and distribution.',
@@ -80,7 +80,7 @@ const ServicesGridSection = () => {
       accentColor: 'text-digimax-pink',
     },
     {
-      icon: FaCameraRetro,
+      icon: FaCamera,
       title: 'Graphic Design',
       description:
         'Eye-catching designs that make your brand stand out. From logos to marketing collateral, we create visual excellence.',

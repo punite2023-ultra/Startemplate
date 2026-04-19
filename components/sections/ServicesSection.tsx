@@ -3,8 +3,8 @@
 import { motion } from 'framer-motion'
 import {
   FaSearch,
-  FaShareAlt,
-  FaPencilAlt,
+  FaShare,
+  FaPen,
   FaLaptop,
   FaChartLine,
   FaEnvelope,
@@ -22,7 +22,7 @@ const ServicesSection = () => {
       accentColor: 'text-digimax-purple',
     },
     {
-      icon: FaShareAlt,
+      icon: FaShare,
       title: 'Social Media Marketing',
       description:
         'Engage your audience and build brand loyalty through strategic social media campaigns.',
@@ -30,7 +30,7 @@ const ServicesSection = () => {
       accentColor: 'text-digimax-pink',
     },
     {
-      icon: FaPencilAlt,
+      icon: FaPen,
       title: 'Content Writing',
       description:
         'Compelling content that resonates with your audience and drives conversions.',

@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { useState } from 'react'
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaArrowRight } from 'react-icons/fa'
+import { FaPhone, FaEnvelope, FaMapMarker, FaArrowRight } from 'react-icons/fa'
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({
@@ -40,7 +40,7 @@ const ContactSection = () => {
       href: 'mailto:hello@digimax.com',
     },
     {
-      icon: FaMapMarkerAlt,
+      icon: FaMapMarker,
       title: 'Address',
       content: '123 Digital Lane, Tech City, TC 12345',
       href: '#',
